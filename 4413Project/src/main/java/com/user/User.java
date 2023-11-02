@@ -1,5 +1,7 @@
 package com.user;
 
+import java.util.concurrent.atomic.AtomicInteger;
+
 public class User {
 	private String email;
 	private String password;
@@ -11,24 +13,31 @@ public class User {
 	private String postalCode;
 	private String city;
 	private String country;
-	private static int ID;
+	private AtomicInteger ID;
 	
-	public User(String email, String password, String username, String fName, String lName, String streetNumber,
-			String streedName, String postalCode, String city, String country) {
-		super();
-		this.email = email;
-		this.password = password;
-		this.username = username;
-		this.fName = fName;
-		this.lName = lName;
-		this.streetNumber = streetNumber;
-		this.streedName = streedName;
-		this.postalCode = postalCode;
-		this.city = city;
-		this.country = country;
-	} 
-	
-	
+	public User() {}
+//	public User(String email, String password, String username, String fName, String lName, String streetNumber,
+//			String streedName, String postalCode, String city, String country) {
+//		super();
+//		this.email = email;
+//		this.password = password;
+//		this.username = username;
+//		this.fName = fName;
+//		this.lName = lName;
+//		this.streetNumber = streetNumber;
+//		this.streedName = streedName;
+//		this.postalCode = postalCode;
+//		this.city = city;
+//		this.country = country;
+//	} 
+//	
+//	
+//	public User(String username, String password) {
+//		this.username = username;
+//		this.password = password;
+//	}
+
+
 	public String getEmail() {
 		return email;
 	}
@@ -89,11 +98,11 @@ public class User {
 	public void setCountry(String country) {
 		this.country = country;
 	}
-	public static int getID() {
+	public AtomicInteger getID() {
 		return ID;
 	}
-	public static void setID() {
-		ID +=1;
+	public void setID() {
+		ID.incrementAndGet();
 	}
 	
 }
