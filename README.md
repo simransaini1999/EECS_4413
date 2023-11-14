@@ -29,7 +29,8 @@ The steps required to run our project are as followed:<br>
 
 
 Addition commands that can be tested
-get_All_items, delete_items,updateUser
+get_All_items , delete_items ,updateUser
+
 
 
 **For Frontend:**
