@@ -5,3 +5,7 @@ The steps required to run our project are as followed:<br>
 3- Open Eclipse and import the project as a maven project. <br>
 4- To run the project, click on "Eecs4413ProjectApplication" class and run it as a Java Application. <br>
 5- Download the .json file which has all the postman collection commands to test them. Run all the collections in this document. <br>
+
+**How to test Backend:**
+
+**For Frontend:**
