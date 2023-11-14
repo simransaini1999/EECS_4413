@@ -9,3 +9,10 @@ The steps required to run our project are as followed:<br>
 **How to test Backend:**
 
 **For Frontend:**
+To implement the minimal browser-client implementations, on Eclipse simply right-click the page you would like to run and it should run on the server.
+
+Otherwise, in the URL enter the name of the file. 
+
+For example, if I was to run the “Register.jsp” page, my URL would look something like this: http://localhost:8080/EECS4413Project/Register.jsp (http://localhost:8080/EECS4413Project/Register.jsp) 
+
+For each of the .jsp pages, you would do the same thing as the Register.jsp shown above.
