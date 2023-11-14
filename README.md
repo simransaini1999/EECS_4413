@@ -8,14 +8,23 @@ The steps required to run our project are as followed:<br>
 
 **Order in which to execute the Postman commands:**
 1- createUser
+
 2- createItem
+
 3- authenticate_login
+
 4- get_itemByName
+
 5- selectItem
+
 6- getItemDetailsInAuction
+
 7- doDutchAuction 
+
 8- setForwardAuctionBid
+
 9- checkDutchPayement 
+
 10- checkForwardPayement 
 
 
