@@ -1,4 +1,4 @@
-# EECS_4413
+# E_Commerce Website 
 The steps required to run our project are as followed:<br>
 1- Download the zip.file that is provided with the code.<br>
 2- Extract the Zip file that you downloaded on your local device. <br>
