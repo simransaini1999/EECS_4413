@@ -50,4 +50,5 @@ For each of the .jsp pages, you would do the same thing as the Register.jsp show
 
 
 ** For Docker ** 
-
+To access the project using docker, the link provided can be used. Search the project up from this link and then pull all the commits. 
+simransaini1999 / docker-springboot-app
