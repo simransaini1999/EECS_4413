@@ -7,6 +7,8 @@ The steps required to run our project are as followed:<br>
 5- Download the .json file which has all the postman collection commands to test them. Run all the collections in this document. <br>
 
 **Order in which to execute the Postman commands:**
+
+
 1- createUser
 
 2- createItem
@@ -27,6 +29,10 @@ The steps required to run our project are as followed:<br>
 
 10- checkForwardPayement 
 
+11- createItem Copy 
+
+12- createUser Copy
+
 
 Addition commands that can be tested
 get_All_items , delete_items ,updateUser
@@ -41,3 +47,7 @@ Otherwise, in the URL enter the name of the file.
 For example, if I was to run the “Register.jsp” page, my URL would look something like this: http://localhost:8080/EECS4413Project/Register.jsp (http://localhost:8080/EECS4413Project/Register.jsp) 
 
 For each of the .jsp pages, you would do the same thing as the Register.jsp shown above.
+
+
+** For Docker ** 
+
